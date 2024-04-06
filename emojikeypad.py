@@ -32,7 +32,19 @@ for i in range(0,10):
 
 textToFlag.update({" " : "⬇️⬇️", "#" : "⬆️↗️"})
 
+numFlagsToText={}
+for num in nums:
+    numFlagsToText.update({textToFlag[num] : num})
+
+abcFlagsToText={}
+
+for letter in abcs:
+    abcFlagsToText.update({textToFlag[letter] : letter})
+
+
 
 
 print(textToFlag)
+print(numFlagsToText)
+print(abcFlagsToText)
     
