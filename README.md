@@ -1,3 +1,5 @@
+https://alexhagood.github.io/emojisemaphore/
+
 Extremely simple webapp to convert between text and semaphore (in emoji form).
 
 Semaphore characters are represented by two emoji, (assuming signaler is facing you) the first one being the left hand, and the second representing the right.
